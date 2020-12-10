@@ -10,16 +10,35 @@ namespace TallerThreadsCcc
     {
         static void Main(string[] args)
         {
-            Thread hilo = new Thread(metodo);
-            hilo.Start();
-            for (int i = 0; i < 1000; i++)
-                Console.Write("x");
-            Console.Read();
+            Random aleatorioSemilla = new Random();
+            int[,] matriss = new int[10, 10];
+            int lugarX = aleatorioSemilla.Next(1, 1);
+            int lugarY = aleatorioSemilla.Next(1, 11);
+            Thread usuarios = new Thread(usuario);
+            usuarios.Start();                        
+            semilla(matriss, lugarX, lugarY);
+            for (int i= 0; i < matriss.GetLength(0); i++)
+            {
+                int j = 1;
+                Console.WriteLine(matriss[j, i]);
+            }
+            //semillas.Start();            
+            Thread serpienteUno = new Thread(serpiente);
+            serpienteUno.Start();            
         }
-        static void metodo()
+        //public int[,]
+        public static void semilla(int[,] matriss, int lugarX, int lugarY)
         {
-            for (int i = 0; i < 1000; i++)
-                Console.Write("y");
+            matriss[lugarX, lugarY] = 1;         
+
+        }
+        static void serpiente()
+        {
+            Console.Write("y");
+        }
+        static void usuario()
+        {
+            Console.Write("y");
         }
     }
 }
