@@ -6,7 +6,7 @@ namespace TallerThreadsCcc
 {
     class ClassUsuario
     {
-        public static void escogerVector()
+        public static void EscogerVector()
         {
             Console.WriteLine("Soy hilo usuario");
         }

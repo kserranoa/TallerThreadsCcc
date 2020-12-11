@@ -6,7 +6,7 @@ namespace TallerThreadsCcc
 {
     class ClassSerpiente
     {
-        static void serpiente()
+        public static void MoverSerpiente()
         {
             Console.Write("Soy hilo serpiente");
         }

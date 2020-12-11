@@ -13,7 +13,7 @@ namespace TallerThreadsCcc
 {
     class ClassSemilla
     {
-        public static void selectVsemilla()
+        public static void SelectVsemilla()
         {
             Console.WriteLine("Metodo escoger vector semilla");
         }

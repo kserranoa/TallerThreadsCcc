@@ -11,11 +11,16 @@ namespace TallerThreadsCcc
         static void Main(string[] args)
         {
             //Creo matrixs
-            Matrixs.crearMatrixs();
+            int x = Matrixs.NumeroAzarX();
+            int y = Matrixs.NumeroAzarY();
+            //Matrixs.addVectores(Matrixs.matriss ,x ,y);
             //Crea hilo de usuario
-            ThreadStart semillas = new ThreadStart(ClassSemilla.selectVsemilla);
-            Thread hiloSemilla = new Thread(semillas);
-            hiloSemilla.Start(); 
+            //ThreadStart usuario = new ThreadStart(Matrixs.AddVectores);
+            //Thread hiloUsuario = new Thread(usuario);
+            //hiloUsuario.Start(); 
+            var usuarios = new Thread(
+                () => Matrixs.AddVectores(Matrixs.matriss, x, y));
+            usuarios.Start();
 
             //Crea hilo para colocar hilos
             //Thread semillas = new Thread(ClassSemilla.selectVsemilla());
