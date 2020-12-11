@@ -16,20 +16,17 @@ namespace TallerThreadsCcc
             int lugarY = aleatorioSemilla.Next(1, 11);
             Thread usuarios = new Thread(usuario);
             usuarios.Start();                        
-            semilla(matriss, lugarX, lugarY);
-            for (int i= 0; i < matriss.GetLength(0); i++)
-            {
-                int j = 1;
-                Console.WriteLine(matriss[j, i]);
-            }
-            //semillas.Start();            
+            //semilla(matriss, lugarX, lugarY);
+            Thread semillas = new Thread(semilla(matriss, lugarX, lugarY));
+            semillas.Start(); 
             Thread serpienteUno = new Thread(serpiente);
             serpienteUno.Start();            
         }
         //public int[,]
-        public static void semilla(int[,] matriss, int lugarX, int lugarY)
+        public static int[] semilla(int[,] matriss, int lugarX, int lugarY)
         {
-            matriss[lugarX, lugarY] = 1;         
+            matriss[lugarX, lugarY] = 1;
+            return matriss;
 
         }
         static void serpiente()
