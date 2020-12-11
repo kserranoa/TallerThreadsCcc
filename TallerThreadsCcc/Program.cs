@@ -10,32 +10,29 @@ namespace TallerThreadsCcc
     {
         static void Main(string[] args)
         {
-            Random aleatorioSemilla = new Random();
-            int[,] matriss = new int[10, 10];
-            int lugarX = aleatorioSemilla.Next(1, 1);
-            int lugarY = aleatorioSemilla.Next(1, 11);
-            Thread usuarios = new Thread(usuario);
-            usuarios.Start();                        
-            //semilla(matriss, lugarX, lugarY);
-            Thread semillas = new Thread(semilla(matriss, lugarX, lugarY));
-            semillas.Start(); 
-            Thread serpienteUno = new Thread(serpiente);
-            serpienteUno.Start();            
-        }
-        //public int[,]
-        public static int[] semilla(int[,] matriss, int lugarX, int lugarY)
-        {
-            matriss[lugarX, lugarY] = 1;
-            return matriss;
+            //Creo matrixs
+            Matrixs.crearMatrixs();
+            //Crea hilo de usuario
+            ThreadStart semillas = new ThreadStart(ClassSemilla.selectVsemilla);
+            Thread hiloSemilla = new Thread(semillas);
+            hiloSemilla.Start(); 
+
+            //Crea hilo para colocar hilos
+            //Thread semillas = new Thread(ClassSemilla.selectVsemilla());
+            //semillas.Start(); 
+
+            ////Crea hilo para manipular las cuatro serpientes
+            //Thread serpienteUno = new Thread();
+            //serpienteUno.Start();
+            //Thread serpienteDos = new Thread(serpiente);
+            //serpienteDos.Start();
+            //Thread serpienteTres = new Thread(serpiente);
+            //serpienteTres.Start();
+            //Thread serpienteCuatro = new Thread(serpiente);
+            //serpienteCuatro.Start();
 
         }
-        static void serpiente()
-        {
-            Console.Write("y");
-        }
-        static void usuario()
-        {
-            Console.Write("y");
-        }
+
+
     }
 }
