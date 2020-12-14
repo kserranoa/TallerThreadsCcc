@@ -1,0 +1,13 @@
+C:\Users\root\source\repos\pruebas\bin\Debug\netcoreapp3.1\pruebas.exe
+C:\Users\root\source\repos\pruebas\bin\Debug\netcoreapp3.1\pruebas.deps.json
+C:\Users\root\source\repos\pruebas\bin\Debug\netcoreapp3.1\pruebas.runtimeconfig.json
+C:\Users\root\source\repos\pruebas\bin\Debug\netcoreapp3.1\pruebas.runtimeconfig.dev.json
+C:\Users\root\source\repos\pruebas\bin\Debug\netcoreapp3.1\pruebas.dll
+C:\Users\root\source\repos\pruebas\bin\Debug\netcoreapp3.1\pruebas.pdb
+C:\Users\root\source\repos\pruebas\obj\Debug\netcoreapp3.1\pruebas.csprojAssemblyReference.cache
+C:\Users\root\source\repos\pruebas\obj\Debug\netcoreapp3.1\pruebas.AssemblyInfoInputs.cache
+C:\Users\root\source\repos\pruebas\obj\Debug\netcoreapp3.1\pruebas.AssemblyInfo.cs
+C:\Users\root\source\repos\pruebas\obj\Debug\netcoreapp3.1\pruebas.csproj.CoreCompileInputs.cache
+C:\Users\root\source\repos\pruebas\obj\Debug\netcoreapp3.1\pruebas.dll
+C:\Users\root\source\repos\pruebas\obj\Debug\netcoreapp3.1\pruebas.pdb
+C:\Users\root\source\repos\pruebas\obj\Debug\netcoreapp3.1\pruebas.genruntimeconfig.cache
