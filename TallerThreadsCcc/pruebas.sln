@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TallerThreadsCcc", "TallerThreadsCcc.csproj", "{4917E5C5-A61E-47A6-B7CB-D2A105092591}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pruebas", "pruebas.csproj", "{2D399B17-54B4-4F03-BA15-D7B0C367C996}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4917E5C5-A61E-47A6-B7CB-D2A105092591}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4917E5C5-A61E-47A6-B7CB-D2A105092591}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4917E5C5-A61E-47A6-B7CB-D2A105092591}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4917E5C5-A61E-47A6-B7CB-D2A105092591}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D399B17-54B4-4F03-BA15-D7B0C367C996}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D399B17-54B4-4F03-BA15-D7B0C367C996}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D399B17-54B4-4F03-BA15-D7B0C367C996}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D399B17-54B4-4F03-BA15-D7B0C367C996}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {83CE154A-63B6-4B61-9CB8-8BE6B783A2C3}
+		SolutionGuid = {E469A7D6-6158-4E28-8BB3-CD71363314CB}
 	EndGlobalSection
 EndGlobal
