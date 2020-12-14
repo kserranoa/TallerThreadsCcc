@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Karina\\Documents\\TallerThreadsCcc\\TallerThreadsCcc\\TallerThreadsCcc\\pruebas.csproj": {}
+    "C:\\Users\\Karina\\Documents\\TallerThreadsCcc\\TallerThreadsCcc\\TallerThreadsCcc\\TallerThreadsCcc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Karina\\Documents\\TallerThreadsCcc\\TallerThreadsCcc\\TallerThreadsCcc\\pruebas.csproj": {
+    "C:\\Users\\Karina\\Documents\\TallerThreadsCcc\\TallerThreadsCcc\\TallerThreadsCcc\\TallerThreadsCcc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Karina\\Documents\\TallerThreadsCcc\\TallerThreadsCcc\\TallerThreadsCcc\\pruebas.csproj",
-        "projectName": "pruebas",
-        "projectPath": "C:\\Users\\Karina\\Documents\\TallerThreadsCcc\\TallerThreadsCcc\\TallerThreadsCcc\\pruebas.csproj",
+        "projectUniqueName": "C:\\Users\\Karina\\Documents\\TallerThreadsCcc\\TallerThreadsCcc\\TallerThreadsCcc\\TallerThreadsCcc.csproj",
+        "projectName": "TallerThreadsCcc",
+        "projectPath": "C:\\Users\\Karina\\Documents\\TallerThreadsCcc\\TallerThreadsCcc\\TallerThreadsCcc\\TallerThreadsCcc.csproj",
         "packagesPath": "C:\\Users\\Karina\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Karina\\Documents\\TallerThreadsCcc\\TallerThreadsCcc\\TallerThreadsCcc\\obj\\",
         "projectStyle": "PackageReference",

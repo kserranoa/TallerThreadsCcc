@@ -8,19 +8,23 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\root\\.nuget\\packages\\": {}
+    "C:\\Users\\Karina\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\root\\source\\repos\\pruebas\\pruebas.csproj",
-      "projectName": "pruebas",
-      "projectPath": "C:\\Users\\root\\source\\repos\\pruebas\\pruebas.csproj",
-      "packagesPath": "C:\\Users\\root\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\root\\source\\repos\\pruebas\\obj\\",
+      "projectUniqueName": "C:\\Users\\Karina\\Documents\\TallerThreadsCcc\\TallerThreadsCcc\\TallerThreadsCcc\\TallerThreadsCcc.csproj",
+      "projectName": "TallerThreadsCcc",
+      "projectPath": "C:\\Users\\Karina\\Documents\\TallerThreadsCcc\\TallerThreadsCcc\\TallerThreadsCcc\\TallerThreadsCcc.csproj",
+      "packagesPath": "C:\\Users\\Karina\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Karina\\Documents\\TallerThreadsCcc\\TallerThreadsCcc\\TallerThreadsCcc\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\root\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Karina\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

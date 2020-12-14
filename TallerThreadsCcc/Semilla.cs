@@ -4,23 +4,23 @@ using System.Text;
 using System.Threading;
 
 
-namespace pruebas
+namespace TallerThreadsCcc
 {
-    class Semilla
+    class Semilla // clase que crea semilla en juego
     {
-        public static int Semill = 1;
+        public static int Semill = 1; // semilla es num 1 
 
-        public static void InsertVectorSemilla ()
+        public static void InsertVectorSemilla () // metodo de insertar semilla en vector de juego
         {
-            while (Serpiente.Fin == 0)
+            while (Serpiente.Fin == 0) // ciclo while para que corra semilla
             {
-                int Xsemi = Matrixs.NumAle();
-                int Ysemi = Matrixs.NumAle();
+                int Xsemi = Matrixs.NumAle(); // almacena ubicacion en X
+                int Ysemi = Matrixs.NumAle(); // almacena ubicacion en Y
 
-                if (Matrixs.matriss[Xsemi, Ysemi] == Semill)
+                if (Matrixs.matriss[Xsemi, Ysemi] == Semill) // si la ubicacion de semilla en ejes x y y es igual a semilla
                 {                    
                     Matrixs.matriss[Xsemi, Ysemi] = Semill;
-                    //Sleep 10
+                    Thread.Sleep(10000); //ejecuta pausa del hilo de 10segundos
                 }
             }
         }
